@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter4</title>
+</head>
+
+<body>
+    <header>
+        <ul type="square">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+        <ol type="i">
+            <li>Phone</li>
+            <li>PC</li>
+            <li>Laptop</li>
+        </ol>
+    </header>
+    <main>
+        <div>
+            <table>
+                <caption>
+                    Student's data
+                </caption>
+                <thead>
+                    <tr>
+                        <th>SNo.</th>
+                        <th>SName</th>
+                        <th>Skills</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bipin</td>
+                        <td>C,Python,Html</td>
+                        <td>Frontend</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Govind</td>
+                        <td>Html, Javascript</td>
+                        <td>Frontend</td>
+                    </tr>
+                    <tr>
+                        <td colspan = "2"> NO of students: 2</td>
+                        <td>Java, Html</td>
+                        <td>Backend</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h1> Student's Form </h1>
+            <form>
+                <input type = "text" placeholder = "Enter your name">
+                <br>
+                <label for = "sectionida">
+                    <input type = "radio" value = "section A" name = "section" id = "sectionida" > Section A
+                </label>
+                <label for = "sectionidb">
+                    <input type="radio" value="section B" name = "section" id = "sectionidb"> Section B
+                </label>
+                <label for = "sectionidc">
+                    <input type="radio" value="section C" name = "section" id = "sectionidc"> Section C
+                </label>
+                <br>
+                <label for = "Gender"> 
+                    <input type = "checkbox"  name = "Male" id = "Gender" > Male 
+                </label>
+                <input type ="date">
+                <input type = "email" placeholder = "Enter your Email"><br>
+                <input type="image" src = "imageee.webp" width = "120px" alt = "Not shown">
+            </form>
+        </div>
+        <div> 
+            <textarea name="Review" rows="10" cols="10" placeholder="Review and tell us your experience to improve."></textarea>
+        </div>
+        <div>
+            <select name="car" id = "bike"> 
+                <option value="no-car" name = "car"> Choose your car </option>
+                <option value="alto" name = "alto"> alto </option>
+                <option value = "ferrari" name = "ferrari"> ferrari </option>
+                <option value = "SUV" name = "tata" > SUV </option>
+                <option value = "Thar" name = "thar"> Thar</option>
+            </select>
+        </div>
+        <div>
+            <video controls width = "200px" loop
+                src="/Htmlagain/WIN_20240727_02_10_25_Pro.mp4" 
+            >
+            </video>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
